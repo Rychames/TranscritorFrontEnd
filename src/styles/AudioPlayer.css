@@ -1,0 +1,48 @@
+.custom-progress-bar {
+    -webkit-appearance: none; /* Remove o estilo padrão */
+    appearance: none;
+    width: 100%;
+    height: 8px; /* Altura da barra */
+    background-color: #f0f0f0; /* Fundo branco */
+    border-radius: 4px; /* Arredondamento */
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.custom-progress-bar::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove o estilo padrão */
+    appearance: none;
+    height: 16px; /* Tamanho da bolinha */
+    width: 16px;
+    background-color: #4F46E5; /* Cor da bolinha */
+    border-radius: 50%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2); /* Sombra */
+    position: relative;
+    z-index: 2;
+    transition: transform 0.2s ease; /* Suaviza o movimento */
+}
+
+.custom-progress-bar::-moz-range-thumb {
+    height: 16px;
+    width: 16px;
+    background-color: #4F46E5;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    transition: transform 0.2s ease;
+}
+
+.custom-progress-bar::before {
+    content: '';
+    position: absolute;
+    height: 8px; /* Altura da área preenchida */
+    background-color: #4F46E5; /* Cor do progresso */
+    left: 0;
+    top: 0;
+    border-radius: 4px;
+    width: calc(var(--progress, 0) * 1%);
+    z-index: 1;
+    transition: width 0.2s ease; /* Suaviza o preenchimento */
+}

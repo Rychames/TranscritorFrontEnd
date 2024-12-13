@@ -1,0 +1,16 @@
+.transcription-text {
+    margin-top: 20px;
+}
+
+.word {
+    margin-right: 4px;
+}
+
+.clickable-timestamp:hover {
+    color: darkblue;
+    font-weight: bold;
+}
+
+audio {
+    display: none;
+}

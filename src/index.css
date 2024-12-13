@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Estilo base para o modo noturno */
+html.dark-mode,
+html.dark-mode body,
+html.dark-mode #root {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Links */
+html.dark-mode a {
+    color: #bb86fc;
+}
+
+/* Botões */
+html.dark-mode button {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: 1px solid #444444;
+}
+
+html.dark-mode button:hover {
+    background-color: #333333;
+}
+
+/* Inputs, Textareas e Selects */
+html.dark-mode input,
+html.dark-mode textarea,
+html.dark-mode select {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #444444;
+}
+
+/* Placeholder */
+html.dark-mode ::placeholder {
+    color: #aaaaaa;
+}
+
+/* Alertas */
+html.dark-mode .alert-danger {
+    background-color: #cf6679;
+    color: #ffffff;
+}
+
+/* Outros ajustes para listas ou containers */
+html.dark-mode .list-group-item {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
