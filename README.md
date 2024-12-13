@@ -1,6 +1,6 @@
-TranscritorFrontEnd
+#TranscritorFrontEnd
 
-Este é o repositório do TranscritorFrontEnd, uma aplicação React que permite converter texto em fala e fala em texto de forma simples e intuitiva. Utilizamos React.js para a construção da interface e Bootstrap para estilização.
+Este é o repositório do TranscritorFrontEnd, uma aplicação React que permite converter texto em fala e fala em texto de forma simples e intuitiva. Utilizando React.js para a construção da interface e Bootstrap para estilização.
 
 Funcionalidades
 
@@ -93,11 +93,5 @@ React.js: Biblioteca JavaScript para construção de interfaces de usuário.
 
 Bootstrap: Framework CSS para estilização responsiva.
 
-Contribuindo
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests com melhorias ou correções.
-
-Licença
-
-Este projeto está licenciado sob a MIT License.
 
